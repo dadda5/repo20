@@ -3,7 +3,7 @@ resource "aws_instance" "flipkart" {
 }
 
  resource "aws_s3_bucket" "storage" {
-  bucket = var.bucket_name"
+  bucket = "var.bucket_name"
   tags = {
   name = var.project_name
     }
